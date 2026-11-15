@@ -1,0 +1,20 @@
+---
+# Keep the two dashed lines above; they tell GitHub Pages to process this file.
+---
+
+@import "minima";
+
+// Download button on the TAPIR page
+.button {
+  display: inline-block;
+  padding: 0.6em 1.4em;
+  background: #2a7ae2;
+  color: #fff !important;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.button:hover { background: #1756a9; }
+
+// Keep screenshots from overflowing the page
+img { max-width: 100%; height: auto; }

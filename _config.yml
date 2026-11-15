@@ -1,0 +1,22 @@
+# Site settings — edit the title and description freely.
+title: AFM-IR
+description: >-
+  A resource on AFM-IR (photothermal nano-infrared spectroscopy):
+  the technique, key papers, software and labs.
+
+# Look and feel. "minima" is a clean theme built into GitHub Pages.
+theme: minima
+
+# Tabs shown in the top menu, in this order.
+header_pages:
+  - technique.md
+  - papers.md
+  - software.md
+  - tapir/index.md
+  - labs.md
+
+# Footer contact (optional — leave empty to hide).
+email: ""
+
+# Markdown settings (no need to touch).
+markdown: kramdown
